@@ -28,7 +28,8 @@
                         <td>@tag.Name</td>
                         <td>@tag.DisplayName</td>
                         <td>
-                            <a asp-area="" asp-controller="AdminTags" asp-action="Edit" asp-route-id="@tag.Id">Edit</a>
+                            <button class="btn btn-success"><a asp-area="" asp-controller="AdminTags" asp-action="Edit" asp-route-id="@tag.Id" style="color: white;text-decoration: none;" >Edit</a></button>
+                            <button class="btn btn-danger"><a asp-area="" asp-controller="AdminTags" asp-action="Delete" asp-route-id="@tag.Id" style="color: white;text-decoration: none;">Delete</a> </button>
                         </td>
                     </tr>
                 }

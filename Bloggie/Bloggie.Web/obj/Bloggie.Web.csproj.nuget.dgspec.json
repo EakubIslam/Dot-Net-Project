@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My_Code\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {}
+    "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {}
   },
   "projects": {
-    "D:\\My_Code\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {
+    "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My_Code\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+        "projectUniqueName": "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
         "projectName": "Bloggie.Web",
-        "projectPath": "D:\\My_Code\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+        "projectPath": "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\My_Code\\Bloggie\\Bloggie.Web\\obj\\",
+        "outputPath": "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

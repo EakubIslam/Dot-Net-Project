@@ -14,7 +14,12 @@ namespace Bloggie.Web.Controllers
             this.bloggieDbContext = bloggieDbContext;
         }
 
-       
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ActionName("Add")]
         public IActionResult Add(AddTagRequest addTagRequest)
@@ -81,19 +86,19 @@ namespace Bloggie.Web.Controllers
 
 
         }
-
-        [HttpPost]
-        public IActionResult Delete(EditTagRequest editTagRequest)
+       
+        [HttpGet]
+        public IActionResult Delete(Guid id)
         {
-            var tag = bloggieDbContext.Tags.FirstOrDefault(x => x.Id == editTagRequest.Id);
-            if(tag != null)
+            var tag = bloggieDbContext.Tags.FirstOrDefault(x => x.Id == id);
+            if (tag != null)
             {
                 bloggieDbContext.Tags.Remove(tag);
                 bloggieDbContext.SaveChanges();
                 return RedirectToAction("List");
             }
-            return RedirectToAction("Edit", new { id = editTagRequest.Id });
-        }
+            return View(null);
+        } 
 
     }
 }

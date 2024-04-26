@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PyznEM3LWB2izdNWPrjseJ+Nr8ruZB9RTIRWoArHCm64+Y2PLIRlDfFzVadZkDyN7l4JJ3uGcxHUJYtlTvU2xA==",
+  "dgSpecHash": "gAitd1buNfIrq7nh/ZhTOyScumaVXp6CoHIdh2RQzQHnKHNCDYGLRGMfTm5HpEETAbf03h21krt7Mx8YJoazTQ==",
   "success": true,
-  "projectFilePath": "D:\\My_Code\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+  "projectFilePath": "D:\\My_Code\\ASP.NET Code\\EakubIslam\\Dot-Net-Project\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
